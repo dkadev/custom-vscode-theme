@@ -1,0 +1,20 @@
+{
+	"name": "dkadev-custom-vscode-theme",
+    "displayName": "dkadev Custom Theme",
+	"description": "Tema personalizado basado en Material Theme Ocean y el esquema de color de Firefox Developer Tools",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": ">=0.9.0-pre.1"
+	},
+	"publisher": "dkadev",
+    "icon": "icon.png",
+	"contributes": {
+		"themes": [
+			{
+				"label": "dkadev Custom Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/theme.json"
+			}
+		]
+	}
+}
